@@ -37,7 +37,7 @@ int main()
 
 	char *instr = input + line_length + 1;
 
-	do {
+	for (size_t d = 0; d < depth; d++) {
 		input -= line_length;
 
 		for (size_t i = 0; i < NSTACKS; i++) {
@@ -45,7 +45,6 @@ int main()
 			if (v != ' ') push(i,v), push(i + NSTACKS, v);
 		}
 	}
-	while (--depth);
 
 	while (*instr) {
 		instr += constexpr_strlen("move ");
