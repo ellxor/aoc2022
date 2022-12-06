@@ -15,7 +15,7 @@ unsigned solve(size_t N)
 	while (*buffer && __builtin_popcount(prev) != N)
 	{
 		prev ^= 1 << (*buffer - 'a');
-		prev ^= 1 << (*(buffer- N) - 'a');
+		prev ^= 1 << (*(buffer - N) - 'a');
 		++buffer;
 	}
 
