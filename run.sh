@@ -10,5 +10,6 @@ clang $CFLAGS day05.c && ./a.out
 clang $CFLAGS day06.c && ./a.out
 clang $CFLAGS day07.c && ./a.out
 clang $CFLAGS day08.c && ./a.out
+clang $CFLAGS day09.c && ./a.out
 
 rm -rf a.out
