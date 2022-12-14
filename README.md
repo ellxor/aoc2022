@@ -18,4 +18,5 @@ Day 12:     3.939 ms
 Day 13:     0.038 ms
 
 Total :    15.732 ms
+CPU   : Ryzen 5 5600
 ```
