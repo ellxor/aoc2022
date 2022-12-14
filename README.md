@@ -1,4 +1,4 @@
-**Advent of Code:**
+**Advent of Code:**  
 Solutions to the popular Christmas coding challenges: [advent of code 2022](https://adventofcode.com/2022).
 
 **Benchmarks:**
