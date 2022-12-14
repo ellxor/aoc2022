@@ -2,6 +2,8 @@ set -xe
 
 CFLAGS="-O3 -march=native -flto -w"
 
+cd src/
+
 clang $CFLAGS day01.c && ./a.out
 clang $CFLAGS day02.c && ./a.out
 clang $CFLAGS day03.c && ./a.out
@@ -17,3 +19,4 @@ clang $CFLAGS day12.c && ./a.out
 clang $CFLAGS day13.c && ./a.out
 
 rm -rf a.out
+cd ..
