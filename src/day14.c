@@ -9,18 +9,12 @@ int main()
 {
     const clock_t t1 = clock();
 
-    size_t min_x = SIZE_MAX, max_x = 0;
-    size_t min_y = SIZE_MAX, max_y = 0;
-
     static char world[200][600] = {0};
+    size_t max_y = 0;
 
     while (*input) {
         size_t x = strtoul(input, &input, 10); input += 1;
         size_t y = strtoul(input, &input, 10);
-
-        if (x < min_x) min_x = x;
-        if (x > max_x) max_x = x;
-        if (y < min_y) min_y = y;
         if (y > max_y) max_y = y;
 
         while (*input != '\n') {
@@ -28,10 +22,6 @@ int main()
 
             size_t nx = strtoul(input, &input, 10); input += 1;
             size_t ny = strtoul(input, &input, 10);
-
-            if (nx < min_x) min_x = nx;
-            if (nx > max_x) max_x = nx;
-            if (ny < min_y) min_y = ny;
             if (ny > max_y) max_y = ny;
 
             size_t x_dir = (x < nx) - (x > nx);
