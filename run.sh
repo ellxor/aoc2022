@@ -17,6 +17,7 @@ clang $CFLAGS day10.c && ./a.out
 clang $CFLAGS day11.c && ./a.out
 clang $CFLAGS day12.c && ./a.out
 clang $CFLAGS day13.c && ./a.out
+clang $CFLAGS day14.c && ./a.out
 
 rm -rf a.out
 cd ..
