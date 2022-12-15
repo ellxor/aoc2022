@@ -4,7 +4,7 @@
 #include <string.h>
 #include <time.h>
 
-#include "day13input.h"
+#include "input/day13input.h"
 
 static inline
 uint64_t in_order_recursive(const char **packet1, const char **packet2)

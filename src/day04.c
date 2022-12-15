@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "day04input.h"
+#include "input/day04input.h"
 
 int main()
 {

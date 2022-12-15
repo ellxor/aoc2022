@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "day05input.h"
+#include "input/day05input.h"
 
 static char STACKS[NSTACKS*2][100];
 static int STACK_SZ[NSTACKS*2];

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "day01input.h"
+#include "input/day01input.h"
 
 /// TODO: create aoc library with useful functions
 static inline unsigned max(unsigned a, unsigned b) { return (a > b) ? a : b; }

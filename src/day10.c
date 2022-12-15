@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "day10input.h"
+#include "input/day10input.h"
 
 int main()
 {

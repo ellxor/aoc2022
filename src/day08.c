@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 
-#include "day08input.h"
+#include "input/day08input.h"
 
 static inline size_t max(size_t a, size_t b) { return a > b ? a : b; }
 

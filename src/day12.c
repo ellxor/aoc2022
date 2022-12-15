@@ -4,7 +4,7 @@
 #include <string.h>
 #include <time.h>
 
-#include "day12input.h"
+#include "input/day12input.h"
 
 static
 void solve(size_t x, size_t y,

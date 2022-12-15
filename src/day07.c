@@ -5,7 +5,7 @@
 #include <time.h>
 #include <x86intrin.h>
 
-#include "day07input.h"
+#include "input/day07input.h"
 
 typedef struct DIR { uint64_t ID, size, count; struct DIR *parent, *subdirs[10]; } DIR;
 

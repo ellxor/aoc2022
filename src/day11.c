@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <time.h>
 
-#include "day11input.h"
+#include "input/day11input.h"
 
 const uint64_t OP_ADD = 0;
 const uint64_t OP_MUL = 1;

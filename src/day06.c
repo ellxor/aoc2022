@@ -2,7 +2,7 @@
 #include <stdint.h>
 #include <time.h>
 
-#include "day06input.h"
+#include "input/day06input.h"
 
 unsigned solve(size_t N)
 {
