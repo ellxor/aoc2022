@@ -16,9 +16,9 @@ Day 10:     0.006 ms
 Day 11:    11.169 ms
 Day 12:     3.939 ms
 Day 13:     0.038 ms
-Day 13:     0.038 ms
 Day 14:     2.975 ms
+Day 15:    33.181 ms
 
-Total :    18.707 ms
+Total :    51.888 ms
 CPU   : Ryzen 5 5600
 ```
