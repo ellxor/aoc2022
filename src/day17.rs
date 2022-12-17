@@ -112,12 +112,11 @@ fn solve(input: &str) -> (usize, usize) {
 }
 
 fn main() {
-
     assert_eq!(solve(include_str!("input/day17/sample")), (3068, 1514285714288));
 
     let start = std::time::Instant::now();
     let (part1, part2) = solve(include_str!("input/day17/sample"));
     let time = start.elapsed().as_secs_f32();
 
-    println!("part 1: {part1}, part 2: {part2}, time: {}ms", time * 1000.0);
+    println!("part 1: {part1}, part 2: {part2}, time: {} μs", (time * 1e6) as usize);
 }
