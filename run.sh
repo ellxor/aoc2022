@@ -1,6 +1,7 @@
 set -xe
 
 CFLAGS="-O3 -march=native -flto -w"
+RUST_FLAGS="-C opt-level=3 -C target-cpu=native -o a.out"
 
 cd src/
 
@@ -20,6 +21,7 @@ cd src/
 #clang $CFLAGS day14.c && ./a.out
 #clang $CFLAGS day15.c && ./a.out
 clang $CFLAGS day16.c && ./a.out
+rustc $RUST_FLAGS day17.rs && ./a.out
 
 rm -rf a.out
 cd ..
