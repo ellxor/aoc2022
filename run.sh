@@ -20,7 +20,7 @@ clang $CFLAGS day12.c && ./a.out
 clang $CFLAGS day13.c && ./a.out
 clang $CFLAGS day14.c && ./a.out
 clang $CFLAGS day15.c && ./a.out
-clang $CFLAGS day16.c && ./a.out
+rustc $RUST_FLAGS day16.rs && ./a.out
 rustc $RUST_FLAGS day17.rs && ./a.out
 rustc $RUST_FLAGS day18.rs && ./a.out
 
