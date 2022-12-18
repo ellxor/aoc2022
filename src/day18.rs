@@ -47,12 +47,9 @@ fn solve(input: &str) -> (u64, u64) {
 
     for cube in &cubes {
         let Cube(x,y,z) = *cube;
-        let faces = 6 - grid[x-1][y][z]
-                      - grid[x+1][y][z]
-                      - grid[x][y-1][z]
-                      - grid[x][y+1][z]
-                      - grid[x][y][z-1]
-                      - grid[x][y][z+1];
+        let faces = 6 - grid[x-1][y][z] - grid[x+1][y][z]
+                      - grid[x][y-1][z] - grid[x][y+1][z]
+                      - grid[x][y][z-1] - grid[x][y][z+1];
 
         part1 += faces as u64;
     }
